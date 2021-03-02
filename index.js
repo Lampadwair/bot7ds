@@ -1,8 +1,12 @@
 const Discord = require("discord.js");
-const config = require("./config.json");
+require("dotenv").config();
 const client = new Discord.Client();
 
 const prefix = "!";
+client.on("ready", () => {
+    console.log("I'm ready !");
+});
+
 client.on("message", function(message) 
 { 
      if (message.author.bot) return;    
