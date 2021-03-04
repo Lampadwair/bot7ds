@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 require("dotenv").config();
 const client = new Discord.Client();
 
-const prefix = "!";
+const prefix = "@";
 client.on("ready", () => {
     console.log("I'm ready !");
 });
@@ -65,7 +65,7 @@ client.on("message", function(message)
   	  	},
    	 	
  		});
-		message.channel.send(`\n ||<@&810617139881836584>||`);
+		message.channel.send(`\n ||<@&810615252050772018>||`);
 	}	
 	/*else if( command === 'vocal')
 	{
