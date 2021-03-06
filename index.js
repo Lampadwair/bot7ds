@@ -18,10 +18,10 @@ client.on("message", function(message)
   	 const command = args.shift().toLowerCase();         
 
   	  
-    if (command === "commands") 
+    if (command === "vocal") 
   	{
-    	message.channel.send(` Les commandes sont : **demons** | **ping** | **pong** `);      
-    }     
+    	message.member.voice.channel.createInvite().then(invite => message.channel.send(`Rejoins nous vocal !) : \n\n https://discord.gg/${invite.code}`));      
+    }   
     else if (command === 'demons') 
   	{
 		if (!args.length)
