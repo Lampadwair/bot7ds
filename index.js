@@ -20,7 +20,7 @@ client.on("message", function(message)
   	  
     if (command === "vocal") 
   	{
-    	message.member.voice.channel.createInvite().then(invite => message.channel.send(`<@&810810440007155783> Rejoins nous vocal !) : \n\n https://discord.gg/${invite.code}`));      
+    	message.member.voice.channel.createInvite().then(invite => message.channel.send(`<@&810615252050772018> Rejoins nous vocal !) : \n\n https://discord.gg/${invite.code}`));      
     }   
     else if (command === 'demons') 
   	{
