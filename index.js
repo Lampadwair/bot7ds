@@ -67,6 +67,51 @@ client.on("message", function(message)
  		});
 		message.channel.send(`\n ||<@&810615252050772018>||`);
 	}	
+	else if (command === 'disaster') 
+  	{
+		if (!args.length)
+		{
+			return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
+		}
+		const x = args[0];
+		const y = args[1];
+		const z = args[2];
+
+		
+		message.channel.send({embed : {
+			color: 10181046,
+    		title: 'Disasters <:Camila:826438575838986260> | <:lilia:826438547715653672> | <:valenti:826438268580790302> !',
+			description : 'Viens taper du disaster !!!!\n ',
+		thumbnail: {
+    		
+    		url : 'https://static.wikia.nocookie.net/nanatsu-no-taizai/images/d/d8/Awakened_Lilia.png/revision/latest?cb=20201018061651',
+    	},
+    	
+    	fields: [
+    	{
+        	name: 'Camilia <:Camila:826438575838986260> ',
+        	value: x
+     	},
+      	{
+      		name: 'Lilia <:lilia:826438547715653672>',
+      		value: y
+     	},
+     	{
+     		name: 'Valenti <:valenti:826438268580790302>',
+     	    value: z
+     	},
+
+   	 	],
+
+		footer: {
+  	    	text : 'Dark Escanor',
+  	    	icon_url: 'https://i.imgur.com/rXBqVcE.jpg',
+  	    }
+  	  	},
+   	 	
+ 		});
+		message.channel.send(`\n ||<@&810615252050772018>||`);
+	}	
 	/*else if( command === 'vocal')
 	{
 		let channel = member.voice.channel;
