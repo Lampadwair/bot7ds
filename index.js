@@ -66,7 +66,27 @@ client.on("message", function(message)
    	 	
  		});
 		message.channel.send(`\n ||<@&810615252050772018>||`);
-	}	
+	}
+	else  if (command === 'play') {
+   		let voiceChannel = message.guild.channels
+      			.filter(function (channel) { return channel.type === 'voice' })
+      			.first()
+	   	let args = message.content.split(' ')
+    		voiceChannel
+      			.join()
+      			.then(function (connection) {
+        	let stream = YoutubeStream(args[1])
+        	stream.on('error', function () {
+          		message.reply("Je n'ai pas réussi à lire cette vidéo :(")
+          		connection.disconnect()
+        		})
+        	connection
+          		.playStream(stream)
+          		.on('end', function () {
+            	connection.disconnect()
+          	})
+      	})
+  	}	
 	else if (command === 'disaster') 
   	{
 		if (!args.length)
