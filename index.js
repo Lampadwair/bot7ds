@@ -7,17 +7,6 @@ client.on("ready", () => {
     console.log("I'm ready !");
 });
 
-client.on('voiceStateUpdate', (oldState, newState) => {
-    if (newState.channel.name === 'Join to Create') { // You can also use `newState.channelID`
-        newState.guild.channels.create("New Channel", {
-            type: 'voice',
-            parent: 'CATEGORY_ID'
-        }).then(vc => {
-            newState.setChannel(vc);
-        })
-    }
-});
-
 client.on("message", function(message) 
 { 
      if (message.author.bot) return;    
