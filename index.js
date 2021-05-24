@@ -81,7 +81,7 @@ client.on("message", function(message)
 			description : 'Viens bourriner du bellmoth avec moi !!!!\n ',
 		thumbnail: {
     		
-    		url : 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ee24032d-222f-43ff-b433-87162680f003/dcit7gw-ea601aeb-09d6-4a76-8bf6-35269ea5b41f.jpg/v1/fill/w_1024,h_1304,q_75,strp/loli_merlin_by_akatoridesu_dcit7gw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMwNCIsInBhdGgiOiJcL2ZcL2VlMjQwMzJkLTIyMmYtNDNmZi1iNDMzLTg3MTYyNjgwZjAwM1wvZGNpdDdndy1lYTYwMWFlYi0wOWQ2LTRhNzYtOGJmNi0zNTI2OWVhNWI0MWYuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.n3b5WQMi0WiZHNkLmVgYQrl6Obe3izE_ttX3-dH4vGE',
+    		url : 'https://cdn.discordapp.com/emojis/830436965198856202.png?v=1',
     	},
     	
     	fields: [
