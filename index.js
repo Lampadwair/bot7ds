@@ -99,6 +99,39 @@ client.on("message", function(message)
    	 	
  		});
 		message.channel.send(`\n ||<@&810615252050772018>||`);
+	}else if (command === 'event') 
+  	{
+		if (!args.length)
+		{
+			return message.channel.send(`Veuillez mettre le nombre de démons Bellmoth , ${message.author}!`);
+		}
+		const x = args[0];
+
+		
+		message.channel.send({embed : {
+			color: 16742912,
+    		title: 'Purinpu demon !',
+			description : 'Viens castagner le Purinpu avec moi :)!\n ',
+		thumbnail: {
+    		
+    		url : 'https://pbs.twimg.com/media/EiKsedmVkAAo9he.jpg:large',
+    	},
+    	
+    	fields: [
+    	{
+        	name: 'Pirunpu ',
+        	value: x
+     	},
+   	 	],
+
+		footer: {
+  	    	text : 'Dark Escanor',
+  	    	icon_url: 'https://i.imgur.com/rXBqVcE.jpg',
+  	    }
+  	  	},
+   	 	
+ 		});
+		message.channel.send(`\n ||<@&810615252050772018>||`);
 	}
 	else if (command === 'disaster') 
   	{
