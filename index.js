@@ -20,7 +20,7 @@ client.on("message", function(message)
   	  
     if (command === "vocal") 
   	{
-    	message.member.voice.channel.createInvite().then(invite => message.channel.send(`<@&810615252050772018> Rejoins nous vocal !) : \n\n https://discord.gg/${invite.code}`));      
+    	message.member.voice.channel.createInvite().then(invite => message.channel.send(`||<@&810615252050772018> <@&852652324082024479>|| Rejoins nous vocal !) : \n\n https://discord.gg/${invite.code}`));      
     }   
     else if (command === 'demons') 
   	{
@@ -65,7 +65,7 @@ client.on("message", function(message)
   	  	},
    	 	
  		});
-		message.channel.send(`\n ||<@&810615252050772018>||`);
+		message.channel.send(`\n ||<@&810615252050772018><@&852652324082024479>||`);
 	}else if (command === 'bm') 
   	{
 		if (!args.length)
@@ -98,7 +98,7 @@ client.on("message", function(message)
   	  	},
    	 	
  		});
-		message.channel.send(`\n ||<@&810615252050772018>||`);
+		message.channel.send(`\n ||<@&810615252050772018><@&852652324082024479>||`);
 	}else if (command === 'event') 
   	{
 		if (!args.length)
