@@ -65,7 +65,7 @@ client.on("message", function(message)
   	  	},
    	 	
  		});
-		message.channel.send(`\n ||<@&810615252050772018><@&852652324082024479>||`);
+		message.channel.send(`\n ||<@&810615252050772018> ||,||<@&852652324082024479>||`);
 	}else if (command === 'bm') 
   	{
 		if (!args.length)
@@ -98,7 +98,7 @@ client.on("message", function(message)
   	  	},
    	 	
  		});
-		message.channel.send(`\n ||<@&810615252050772018><@&852652324082024479>||`);
+		message.channel.send(`\n ||<@&810615252050772018>|| , || <@&852652324082024479>||`);
 	}else if (command === 'event') 
   	{
 		if (!args.length)
